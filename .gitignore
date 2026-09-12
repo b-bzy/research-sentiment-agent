@@ -6,3 +6,12 @@ Thumbs.db
 .vscode/
 __pycache__/
 .env
+
+# ---- Demo 运行时产物 ----
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+out/
+__pycache__/
+*.py[cod]
